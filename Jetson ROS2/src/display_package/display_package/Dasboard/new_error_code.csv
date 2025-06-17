@@ -1,0 +1,8 @@
+code,error,action
+2,BMU_SETUP_MODE,slow
+3,Vehicle_Comms_Timeout,slow
+4,CMU_Comms_Timeout,slow
+5,Measurement_Untrusted,slow
+6,Cell_Over_Temp,slow
+7,Cell_Under_Voltage,slow
+8,Cell_Over_Voltage,slow

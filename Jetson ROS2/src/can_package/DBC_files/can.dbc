@@ -1,0 +1,284 @@
+VERSION "0.0"
+
+
+NS_ :
+                NS_DESC_
+                CM_
+                BA_DiEF_
+                BA_
+                VAL_
+                CAT_DEF_
+                CAT_
+                FILTER
+                BA_DEF_DEF_
+                EV_DATA_
+                ENVVAR_DATA_
+                SGTYPE_
+                SGTYPE_VAL_
+                BA_DEF_SGTYPE_
+                BA_SGTYPE_
+                SIG_TYPE_REF_
+                VAL_TABLE_
+                SIG_GROUP_
+                SIG_VALTYPE_
+                SIGTYPE_VALTYPE_
+                BO_TX_BU_
+                BA_DEF_REL_
+                BA_REL_
+                BA_DEF_DEF_REL_
+                BU_SG_REL_
+                BU_EV_REL_
+                BU_BO_REL_
+                SG_MUL_VAL_
+
+		NS_DESC_
+                CM_
+                BA_DEF_
+                BA_
+                VAL_
+                CAT_DEF_
+                CAT_
+                FILTER
+                BA_DEF_DEF_
+                EV_DATA_
+                ENVVAR_DATA_
+                SGTYPE_
+                SGTYPE_VAL_
+                BA_DEF_SGTYPE_
+                BA_SGTYPE_
+                SIG_TYPE_REF_
+                VAL_TABLE_
+                SIG_GROUP_
+                SIG_VALTYPE_
+                SIGTYPE_VALTYPE_
+                BO_TX_BU_
+                BA_DEF_REL_
+                BA_REL_
+                BA_DEF_DEF_REL_
+                BU_SG_REL_
+                BU_EV_REL_
+                BU_BO_REL_
+                SG_MUL_VAL_
+
+		NS_DESC_
+                CM_
+                BA_DEF_
+                BA_
+                VAL_
+                CAT_DEF_
+                CAT_
+                FILTER
+                BA_DEF_DEF_
+                EV_DATA_
+                ENVVAR_DATA_
+                SGTYPE_
+                SGTYPE_VAL_
+                BA_DEF_SGTYPE_
+                BA_SGTYPE_
+                SIG_TYPE_REF_
+                VAL_TABLE_
+                SIG_GROUP_
+                SIG_VALTYPE_
+                SIGTYPE_VALTYPE_
+                BO_TX_BU_
+                BA_DEF_REL_
+                BA_REL_
+                BA_DEF_DEF_REL_
+                BU_SG_REL_
+                BU_EV_REL_
+                BU_BO_REL_
+                SG_MUL_VAL_
+		
+
+BS_:
+
+BU_:
+
+BO_ 1537 CMU_1_Data_1: 8 Vector__XXX
+        SG_ CMU_1_SlNo : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ PCB_1_Temp : 32|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Cell_1_Temp : 48|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1540 CMU_2_Data_1: 8 Vector__XXX
+        SG_ CMU_2_SlNo : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ PCB_2_Temp : 32|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Cell_2_Temp : 48|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1543 CMU_3_Data_1: 8 Vector__XXX
+        SG_ CMU_3_SlNo : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ PCB_3_Temp : 32|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Cell_3_Temp : 48|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1546 CMU_4_Data_1: 8 Vector__XXX
+        SG_ CMU_4_SlNo : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ PCB_4_Temp : 32|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Cell_4_Temp : 48|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1549 CMU_5_Data_1: 8 Vector__XXX
+        SG_ CMU_5_SlNo : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ PCB_5_Temp : 32|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Cell_5_Temp : 48|16@1+ (0.1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1780 Pack_SOC: 8 Vector__XXX
+        SG_ SOC_Ah : 0|32@1+ (1,0) [0|0] "Ah" Vector__XXX
+        SG_ SOC_Percent : 32|32@1+ (1,0) [0|0] "Percent" Vector__XXX
+
+BO_ 1783 PreCharge_Status: 8 Vector__XXX
+        SG_ Precharge_Contactor_Driver_Stat : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Precharge_State : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Precharge_Timer_Elapsed : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Precharge_Timer : 56|8@1+ (1,10) [0|0] "ms" Vector__XXX
+
+BO_ 1786 Battery_Volt_Current: 8 Vector__XXX
+        SG_ Battery_Voltage : 0|32@1+ (1,0) [0|0] "mV" Vector__XXX
+        SG_ Battery_Current : 32|32@1+ (1,0) [0|0] "mA" Vector__XXX
+
+BO_ 1787 BMS_Error_Flags: 8 Vector__XXX
+        SG_ CMU_Can_Bus_Power_Status : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ BMU_Setup_Mode : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Vehicle_Comms_Timeout : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ CMU_Comms_Timeout : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Measurement_Untrusted : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Cell_Over_Temp : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Cell_Under_Voltage : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Cell_Over_Voltage : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1789 BMS_Extended_Status: 8 Vector__XXX
+        SG_ Status_Flags : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Hardware_Version : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Model_ID : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1025 MC_Status: 8 Vector__XXX
+        SG_ Limit_Flags_MC : 0|6@1+ (1,0) [0|0] "" Vector__XXX
+        SG_ Error_Flags_MC : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1026 MC_Bus_Measurement: 8 Vector__XXX
+        SG_ Bus_Voltage : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Bus_Current : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1027 MC_Velocity: 8 Vector__XXX
+        SG_ Motor_Velocity : 0|32@1+ (1,0) [0|0] "RPM" Vector__XXX
+        SG_ Vehicle_Velocity : 32|32@1+ (1,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1028 MC_Phase_Current: 8 Vector__XXX
+        SG_ PhaseC_Current_Val : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+        SG_ PhaseB_Current_Val : 0|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1035 MC_HeatSink_Motor_Temperature: 8 Vector__XXX
+        SG_ Motor_Temp : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Heat_Sink_Temp : 32|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1036 MC_DSP_Temperature: 8 Vector__XXX
+        SG_ DSP_Board_Temperature : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1038 MC_Odometer_Charge: 8 Vector__XXX
+        SG_ Odometer : 0|32@1+ (1,0) [0|0] "meter" Vector__XXX
+        SG_ DC_Bus_AmpHours : 32|32@1+ (1,0) [0|0] "Ah" Vector__XXX
+
+BO_ 1696 MPPT1_Input_Measurements: 8 Vector__XXX
+        SG_ Input_Voltage_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Input_Current_A : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1697 MPPT1_Output_Measurements: 8 Vector__XXX
+        SG_ Output_Voltage_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Output_Current_A : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1698 MPPT1_Temperature: 8 Vector__XXX
+        SG_ MOSFET_Temp_A : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Controller_Temp_A : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1701 MPPT1_Status: 8 Vector__XXX
+        SG_ Error_Flags_A : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1712 MPPT2_Input_Measurements: 8 Vector__XXX
+        SG_ Input_Voltage_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Input_Current_B : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1713 MPPT2_Output_Measurements: 8 Vector__XXX
+        SG_ Output_Voltage_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Output_Current_B : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1714 MPPT2_Temperature: 8 Vector__XXX
+        SG_ MOSFET_Temp_B : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Controller_Temp_B : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1717 MPPT2_Status: 8 Vector__XXX
+        SG_ Error_Flags_B : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1728 MPPT3_Input_Measurements: 8 Vector__XXX
+        SG_ Input_Voltage_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Input_Current_C : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1729 MPPT3_Output_Measurements: 8 Vector__XXX
+        SG_ Output_Voltage_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Output_Current_C : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1730 MPPT3_Temperature: 8 Vector__XXX
+        SG_ MOSFET_Temp_C : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Controller_Temp_C : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1733 MPPT3_Status: 8 Vector__XXX
+        SG_ Error_Flags_C : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1744 MPPT4_Input_Measurements: 8 Vector__XXX
+        SG_ Input_Voltage_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Input_Current_D : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1745 MPPT4_Output_Measurements: 8 Vector__XXX
+        SG_ Output_Voltage_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+        SG_ Output_Current_D : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1746 MPPT4_Temperature: 8 Vector__XXX
+        SG_ MOSFET_Temp_D : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+        SG_ Controller_Temp_D : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1749 MPPT4_Status: 8 Vector__XXX
+        SG_ Error_Flags_C : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "ProtocolType" "";
+BA_ "BusType" "CAN";
+
+SIG_VALTYPE_ 1026 Bus_Voltage : 1;
+SIG_VALTYPE_ 1026 Bus_Current : 1;
+SIG_VALTYPE_ 1027 Motor_Velocity : 1;
+SIG_VALTYPE_ 1027 Vehicle_Velocity : 1;
+SIG_VALTYPE_ 1028 PhaseC_Current_Val : 1;
+SIG_VALTYPE_ 1028 PhaseB_Current_Val : 1;
+SIG_VALTYPE_ 1035 Motor_Temp : 1;
+SIG_VALTYPE_ 1035 Heat_Sink_Temp : 1;
+SIG_VALTYPE_ 1036 DSP_Board_Temperature : 1;
+SIG_VALTYPE_ 1038 Odometer : 1;
+SIG_VALTYPE_ 1038 DC_Bus_AmpHours : 1;
+
+SIG_VALTYPE_ 1696 Input_Voltage_A : 1;
+SIG_VALTYPE_ 1696 Input_Current_A : 1;
+SIG_VALTYPE_ 1697 Output_Voltage_A : 1;
+SIG_VALTYPE_ 1697 Output_Current_A : 1;
+SIG_VALTYPE_ 1698 MOSFET_Temp_A : 1;
+SIG_VALTYPE_ 1698 Controller_Temp_A : 1;
+
+SIG_VALTYPE_ 1712 Input_Voltage_B : 1;
+SIG_VALTYPE_ 1712 Input_Current_B : 1;
+SIG_VALTYPE_ 1713 Output_Voltage_B : 1;
+SIG_VALTYPE_ 1713 Output_Current_B : 1;
+SIG_VALTYPE_ 1714 MOSFET_Temp_B : 1;
+SIG_VALTYPE_ 1714 Controller_Temp_B : 1;
+
+SIG_VALTYPE_ 1728 Input_Voltage_C : 1;
+SIG_VALTYPE_ 1728 Input_Current_C : 1;
+SIG_VALTYPE_ 1729 Output_Voltage_C : 1;
+SIG_VALTYPE_ 1730 MOSFET_Temp_C : 1;
+SIG_VALTYPE_ 1730 Controller_Temp_C : 1;
+
+SIG_VALTYPE_ 1744 Input_Voltage_D : 1;
+SIG_VALTYPE_ 1744 Input_Current_D : 1;
+SIG_VALTYPE_ 1745 Output_Voltage_D : 1;
+SIG_VALTYPE_ 1745 Output_Current_D : 1;
+SIG_VALTYPE_ 1746 MOSFET_Temp_D : 1;
+SIG_VALTYPE_ 1746 Controller_Temp_ : 1;
+
+SIG_VALTYPE_ 1781 SOC_Ah : 1;
