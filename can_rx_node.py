@@ -28,7 +28,7 @@ class CAN_RX_NODE(Node):
             message_decoded = []
             for i in decoded_data.values():
                 message_decoded.append(float(i))
-            message_decoded.insert(0, float(response.arbitration_id))
+            message_decoded.insert(0, float(response.arbitration_id)) # CAN message is decoded
             signal_names = list(decoded_data.keys())
 
             # Publish only if valid data is received
