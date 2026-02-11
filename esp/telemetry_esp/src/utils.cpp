@@ -1,6 +1,7 @@
-#include "telemetry_data.h"
+#include "telemetry.h"
 #include "driver/twai.h"
 #include <Arduino.h>
+#include "config.h"
 
 // Convert Float32 to Half-Precision (Float16) for Type B Packets
 uint16_t float32_to_float16(float value) {

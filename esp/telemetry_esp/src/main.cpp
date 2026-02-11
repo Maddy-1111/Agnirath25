@@ -1,6 +1,8 @@
-#include "telemetry_data.h"
+#include "telemetry.h"
 #include "driver/twai.h"
 #include <Arduino.h>
+#include "utils.h"
+#include "config.h"
 
 float final_data[111] = {0.0f};
 
