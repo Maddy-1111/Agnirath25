@@ -22,9 +22,38 @@ void loop() {
         decode_can_frame(msg);
     }
 
+    if (msg.identifier == 1696) {
+            Serial.print("MPPT A (ID: 1696) -> ");
+            Serial.print("Input Voltage: ");
+            Serial.print(final_data[67]);
+            Serial.print(" V | Input Current: ");
+            Serial.print(final_data[68]);
+            Serial.println(" A");
+        }
+
     static uint32_t last_tx = 0;
     if (millis() - last_tx > 1000) { // 100Hz
         send_uplink();
         last_tx = millis();
     }
 }
+
+'''void loop() {
+    twai_message_t msg;
+    
+    // Check if a CAN message is received
+    if (twai_receive(&msg, pdMS_TO_TICKS(1)) == ESP_OK) {
+        decode_can_frame(msg);
+
+        // --- NEW: Print MPPT A Data to Serial Monitor ---
+        // MPPT A ID is 1696. It maps to indexes 67 and 68.
+        if (msg.identifier == 1696) {
+            Serial.print("MPPT A (ID: 1696) -> ");
+            Serial.print("Input Voltage: ");
+            Serial.print(final_data[67]);
+            Serial.print(" V | Input Current: ");
+            Serial.print(final_data[68]);
+            Serial.println(" A");
+        }
+    }
+        '''
